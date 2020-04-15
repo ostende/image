@@ -1,0 +1,159 @@
+<skin>
+	<!-- Switch menu pic -->
+	<switchpixmap>
+		<pixmap name="menu_on" filename="egami_skin_default/menu/menu_on.png"  />
+		<pixmap name="menu_off" filename="egami_skin_default/menu/menu_off.png" />
+	</switchpixmap>
+	<!-- Slider pixmap style for settings -->
+	<cascadingstylesheets name="slider_settings" >
+		<css name="sliderLength" value="150" />
+		<css name="sliderLengthTip" value="5" />
+		<css name="sliderBackground" value="egami_skin_default/slider/slider_1280x10_hbg.png" />
+		<css name="sliderForeground" value="egami_skin_default/slider/slider_1280x10_hfg.png" />
+		<css name="sliderPointer" value="egami_skin_default/slider/slider_18x18.png" />
+	</cascadingstylesheets>
+	
+	<!-- Scroll label -->
+	<cascadingstylesheets name="smoth_scroll" >
+		<css name="step" value="1" />
+		<css name="steptime" value="150" />
+		<css name="startdelay" value="2000" />
+	</cascadingstylesheets>
+	<cascadingstylesheets name="midle_scroll" >
+		<css name="step" value="1" />
+		<css name="steptime" value="50" />
+		<css name="startdelay" value="2000" />
+	</cascadingstylesheets>
+	
+	<!-- Slider pixmap style horizontal -->
+	<cascadingstylesheets name="slider_mini_horizontal" >
+		<css name="sliderLengthTip" value="3" />
+		<css name="sliderBackground" value="egami_skin_default/slider/slider_1280x6_hbg.png" />
+		<css name="sliderForeground" value="egami_skin_default/slider/slider_1280x6_hfg.png" />
+	</cascadingstylesheets>
+	<cascadingstylesheets name="slider_small_horizontal" >
+		<css name="sliderLengthTip" value="5" />
+		<css name="sliderBackground" value="egami_skin_default/slider/slider_1280x10_hbg.png" />
+		<css name="sliderForeground" value="egami_skin_default/slider/slider_1280x10_hfg.png" />
+	</cascadingstylesheets>
+	<cascadingstylesheets name="slider_small_horizontal_val" >
+		<css name="sliderLengthTip" value="5" />
+		<css name="sliderForeground" value="egami_skin_default/slider/slider_1280x10_hfg.png" />
+	</cascadingstylesheets>
+	<cascadingstylesheets name="slider_small_horizontal_len" >
+		<css name="sliderLengthTip" value="5" />
+		<css name="sliderBackground" value="egami_skin_default/slider/slider_1280x10_hbg.png" />
+		<css name="sliderForeground" value="egami_skin_default/slider/slider_1280x10_hfr.png" />
+	</cascadingstylesheets>
+	<cascadingstylesheets name="slider_midle_horizontal" >
+		<css name="sliderLengthTip" value="6" />
+		<css name="sliderBackground" value="egami_skin_default/slider/slider_1280x12_hbg.png" />
+		<css name="sliderForeground" value="egami_skin_default/slider/slider_1280x12_hfg.png" />
+	</cascadingstylesheets>
+	<cascadingstylesheets name="slider_big_horizontal" >
+		<css name="sliderLengthTip" value="6" />
+		<css name="sliderBackground" value="egami_skin_default/slider/slider_1280x22_hbg.png" />
+		<css name="sliderForeground" value="egami_skin_default/slider/slider_1280x22_hfg.png" />
+	</cascadingstylesheets>
+	
+	<!-- Tips pixmap style vertical -->
+	<cascadingstylesheets name="tips_vertical_20" >
+		<css name="sliderLengthTip" value="20" />
+	</cascadingstylesheets>
+	<cascadingstylesheets name="tips_horizontal_20" >
+		<css name="sliderLengthTip" value="20" />
+	</cascadingstylesheets>
+	
+	<!-- Slider pixmap style vertical -->
+	<cascadingstylesheets name="slider_micro_vertical" >
+		<css name="sliderLengthTip" value="2" />
+		<css name="sliderBackground" value="egami_skin_default/slider/slider_4x720_vbg.png" />
+		<css name="sliderForeground" value="egami_skin_default/slider/slider_4x720_vfg.png" />
+	</cascadingstylesheets>
+	<cascadingstylesheets name="slider_mini_vertical" >
+		<css name="sliderLengthTip" value="3" />
+		<css name="sliderBackground" value="egami_skin_default/slider/slider_6x720_vbg.png" />
+		<css name="sliderForeground" value="egami_skin_default/slider/slider_6x720_vfg.png" />
+	</cascadingstylesheets>
+	<cascadingstylesheets name="slider_vertical" >
+		<css name="sliderLengthTip" value="3" />
+		<css name="sliderBackground" value="egami_skin_default/slider/slider_6x1080_vbg.png" />
+		<css name="sliderForeground" value="egami_skin_default/slider/slider_6x1080_vfg.png" />
+	</cascadingstylesheets>
+	<cascadingstylesheets name="slider_small_vertical" >
+		<css name="sliderLengthTip" value="5" />
+		<css name="sliderBackground" value="egami_skin_default/slider/slider_10x720_vbg.png" />
+		<css name="sliderForeground" value="egami_skin_default/slider/slider_10x720_vfg.png" />
+	</cascadingstylesheets>
+	<cascadingstylesheets name="slider_midle_vertical" >
+		<css name="sliderLengthTip" value="6" />
+		<css name="sliderBackground" value="egami_skin_default/slider/slider_12x720_vbg.png" />
+		<css name="sliderForeground" value="egami_skin_default/slider/slider_12x720_vfg.png" />
+	</cascadingstylesheets>
+	
+	<!-- Slider pixmap style pointer -->
+	<cascadingstylesheets name="slider_small_pointer">
+		<css name="sliderPointer" value="egami_skin_default/slider/slider_16x16.png" />
+	</cascadingstylesheets>
+	<cascadingstylesheets name="slider_midle_pointer">
+		<css name="sliderPointer" value="egami_skin_default/slider/slider_18x18.png" />
+	</cascadingstylesheets>
+	<cascadingstylesheets name="slider_big_pointer">
+		<css name="sliderPointer" value="egami_skin_default/slider/slider_34x34.png" />
+	</cascadingstylesheets>
+	
+	<!-- Slider pixmap style for multiepg -->
+	<cascadingstylesheets name="slider_multiepg" >
+		<css name="sliderLengthTip" value="5" />
+		<css name="sliderBackground" value="egami_skin_default/slider/slider_1280x10_hbg.png" />
+		<css name="sliderForeground" value="egami_skin_default/slider/slider_1280x10_hfg.png" />
+	</cascadingstylesheets>
+	
+	<!-- Screens -->
+	<screen name="SmartConsole" position="center,center" size="654,250" flags="wfTitle" title="Installing Software...">
+		<widget position="18,20" size="598,40" source="status" render="Label" font="Regular;18" valign="top" zPosition="1"/>
+		<widget position="18,70" size="598,20" source="text" render="Label" font="Regular;18" valign="bottom" zPosition="1"/>
+		<widget position="16,115" size="596,12" source="activityslider" render="Progress" css="slider_midle_horizontal" transparent="1" zPosition="1" />
+		<widget position="16,140" size="596,22" source="slider" render="Progress" css="slider_big_horizontal" transparent="1" zPosition="1" />
+		<widget position="16,20" size="1130,500" name="console" source="console" render="ScrollLabel" font="Regular;18" valign="bottom" autoScroll="off" step="40" css="slider_mini_vertical" scrollbarMode="showOnDemand" zPosition="2"/>
+		<widget position="16,530" size="1130,20" source="consolestatus" render="Label" font="Regular;18" valign="bottom" zPosition="2"/>
+	</screen>
+	<screen name="Animmain" position="0,0" size="1920,1080" title="Mainmenu" backgroundColor="transparent" flags="wfNoBorder"> 
+	      <eLabel position="0,810" size="1920,270" backgroundColor="header" zPosition="-1" /> 
+	      <ePixmap pixmap="oDreamy-FHD/buttons/closebar.png" position="0,780" size="1670,60" zPosition="-1" alphatest="blend" />
+	      <eLabel position="0,810" size="1920,1" backgroundColor="bluette" zPosition="-1" /> 
+	      <widget name="title" position="500,789" size="800,50" zPosition="3" halign="center" valign="top" foregroundColor="white" backgroundColor="black" font="Regular; 46" transparent="1" /> 
+	      <widget source="label1" render="Label" position="50,850" size="320,200" font="Regular;32" halign="center" valign="center" zPosition="2" noWrap="1" foregroundColor="white" backgroundColor="black" transparent="1" />
+	      <widget source="label2" render="Label" position="425,850" size="320,200" font="Regular;32" halign="center" valign="center" zPosition="2" noWrap="1" foregroundColor="white" backgroundColor="black" transparent="1" />
+	      <widget source="label3" render="Label" position="800,850" size="320,200" font="Regular;32" halign="center" valign="center" zPosition="2" noWrap="1" foregroundColor="blue" backgroundColor="black" transparent="1" />
+	      <widget source="label4" render="Label" position="1175,850" size="320,200" font="Regular;32" halign="center" valign="center" zPosition="2" noWrap="1" foregroundColor="white" backgroundColor="black" transparent="1" /> 
+	      <widget source="label5" render="Label" position="1550,850" size="320,200" font="Regular;32" halign="center" valign="center" zPosition="2" noWrap="1" foregroundColor="white" backgroundColor="black" transparent="1" /> 
+	</screen>
+	<screen name="Iconmain" position="0,0" size="1920,1080" title="Mainmenu" backgroundColor="transparent" flags="wfNoBorder"> 
+		<ePixmap pixmap="oDreamy-FHD/buttons/closebar.png" position="0,780" size="1670,60" zPosition="-1" alphatest="blend" />
+		<widget name="title" position="500,785" size="800,50" zPosition="3" halign="center" valign="top" foregroundColor="white" backgroundColor="black" font="Regular; 46" transparent="1" /> 
+		<widget source="label1" render="Label" position="15,850" size="300,200" font="Regular;32" halign="center" valign="center" zPosition="2" foregroundColor="white" backgroundColor="black" transparent="1" />
+		<widget source="label1s" render="Label" position="15,850" size="300,200" font="Regular;32" halign="center" valign="center" zPosition="2" foregroundColor="red" backgroundColor="black" transparent="1" />
+		<widget name="pixmap1" position="15,850" size="300,200" zPosition="1" transparent="1" alphatest="on" />
+		<widget source="label2" render="Label" position="325,850" size="300,200" font="Regular;32" halign="center" valign="center" zPosition="2" foregroundColor="white" backgroundColor="black" transparent="1" />
+		<widget source="label2s" render="Label" position="325,850" size="300,200" font="Regular;32" halign="center" valign="center" zPosition="2" foregroundColor="red" backgroundColor="black" transparent="1" />
+		<widget name="pixmap2" position="325,850" size="300,200" zPosition="1" transparent="1" alphatest="on" />
+		<widget source="label3" render="Label" position="635,850" size="300,200" font="Regular;32" halign="center" valign="center" zPosition="2" foregroundColor="white" backgroundColor="black" transparent="1" />
+		<widget source="label3s" render="Label" position="635,850" size="300,200" font="Regular;32" halign="center" valign="center" zPosition="2" foregroundColor="red" backgroundColor="black" transparent="1" />
+		<widget name="pixmap3" position="635,850" size="300,200" zPosition="1" transparent="1" alphatest="on" />
+		<widget source="label4" render="Label" position="985,850" size="300,200" font="Regular;32" halign="center" valign="center" zPosition="2" foregroundColor="white" backgroundColor="black" transparent="1" /> 
+		<widget source="label4s" render="Label" position="985,850" size="300,200" font="Regular;32" halign="center" valign="center" zPosition="2" foregroundColor="red" backgroundColor="black" transparent="1" /> 
+		<widget name="pixmap4" position="985,850" size="300,200" zPosition="1" transparent="1" alphatest="on" />
+		<widget source="label5" render="Label" position="1295,850" size="300,200" font="Regular;32" halign="center" valign="center" zPosition="2" foregroundColor="white" backgroundColor="black" transparent="1" /> 
+		<widget source="label5s" render="Label" position="1295,850" size="300,200" font="Regular;32" halign="center" valign="center" zPosition="2" foregroundColor="red" backgroundColor="black" transparent="1" /> 
+		<widget name="pixmap5" position="1295,850" size="300,200" zPosition="1" transparent="1" alphatest="on" />
+		<widget source="label6" render="Label" position="1605,850" size="300,200" font="Regular;32" halign="center" valign="center" zPosition="2" foregroundColor="white" backgroundColor="black" transparent="1" /> 
+		<widget source="label6s" render="Label" position="1605,850" size="300,200" font="Regular;32" halign="center" valign="center" zPosition="2" foregroundColor="red" backgroundColor="black" transparent="1" /> 
+		<widget name="pixmap6" position="1605,850" size="300,200" zPosition="1" transparent="1" alphatest="on" />
+		<ePixmap position="1595,788" size="45,45" pixmap="oDreamy-FHD/buttons/rec_off.png" alphatest="blend" zPosition="1" />
+		<widget source="session.RecordState" render="Pixmap" position="1595,788" size="45,45" pixmap="oDreamy-FHD/buttons/rec_on.png" alphatest="blend" zPosition="2">
+			<convert type="ConditionalShowHide">Blink</convert>
+		</widget>
+	</screen>
+	
+</skin>
